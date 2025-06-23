@@ -96,6 +96,7 @@ public function onCommandJoinQueue(string $player, string $queue): void {
 # 📁 Estructura interna (ejemplo)
 
 ```php
+
 [
   "duels" => [
     "Player1" => 1,
@@ -105,6 +106,7 @@ public function onCommandJoinQueue(string $player, string $queue): void {
     "Player3" => 1
   ]
 ]
+
 ```
 
 Este sistema es **en memoria**, no persistente. Si deseas guardarlo, puedes integrarlo fácilmente con `Config`.
